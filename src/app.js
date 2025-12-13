@@ -7,7 +7,7 @@ app.post("/webhook", (req, res) => {
     console.log("Webhook received")
     console.log("Body ===> ", req.body)
     console.log("Event ===> ", req.headers['x-github-event'])
-    res.send("Webhook received :) ")
+    res.send("Webhook received :) on my app ")
 })
 
 
